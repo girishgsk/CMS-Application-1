@@ -1,0 +1,83 @@
+/* Container for the form */
+.container-createPost {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+/* Heading styling */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+/* Form group styling */
+form div {
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Input and textarea styling */
+form input[type="text"],
+form textarea,
+form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+/* Textarea height */
+form textarea {
+  height: 100px;
+}
+
+/* Input focus state */
+form input[type="text"]:focus,
+form textarea:focus,
+form input[type="file"]:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover state */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Message paragraph styling */
+p {
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
+}

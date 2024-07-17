@@ -1,0 +1,99 @@
+.container_post-body {
+  margin-top: 80px;
+  width: 100%;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.tables {
+  width: 100%;
+  justify-content: center;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.tabless-head {
+  background-color: #f8f9fa;
+  text-align: left;
+}
+
+.tables-head th {
+  padding: 10px;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.tables-body {
+  background-color: #ffffff;
+  max-width: 100%;
+}
+
+.tables-body tr:nth-child(even) {
+  background-color: #f2f2f2;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.tables-body td {
+  padding: 10px;
+  border-bottom: 1px solid #dee2e6;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.tables-body .image img {
+  display: block;
+  margin: 0 auto;
+}
+
+.UpdateButton {
+  background-color: #007bff;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.UpdateButton a {
+  color: white;
+  text-decoration: none;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.UpdateButton:hover,
+.deleteButton:hover {
+  opacity: 0.8;
+}
+
+.no-data {
+  text-align: center;
+  color: #999;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.createPostLink {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.createPostLink a {
+  margin-left: 8px;
+  color: rgb(0, 26, 255);
+}
